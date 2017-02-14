@@ -51,6 +51,7 @@
         <tstamp/>
         <jar destfile="${jarfile}">
             <manifest>
+		<attribute name="Main-Class" value="com.ricardosantos.scriptagent.Main"/>
                 <attribute name="Specification-Title" value="Platform Metric Publish SDK"/>
                 <attribute name="Specification-Vendor" value="New Relic, Inc."/>
                 <attribute name="Implementation-Vendor" value="New Relic, Inc."/>
